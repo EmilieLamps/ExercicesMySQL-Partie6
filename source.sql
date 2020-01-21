@@ -6,3 +6,4 @@ SELECT * FROM `frameworks` WHERE `version` LIKE 'version 2%';
 -- Dans la table frameworks, afficher toutes les lignes ayant pour id 1 et 3.
 SELECT * FROM `frameworks` WHERE id=1 || id=3;
 -- Dans la table ide, afficher toutes les lignes ayant une date comprise entre le premier janvier 2010 et le 31 decembre 2011.
+SELECT * FROM `ide` WHERE `date` <='2011-12-31'AND `date`>='2010-01-01';
